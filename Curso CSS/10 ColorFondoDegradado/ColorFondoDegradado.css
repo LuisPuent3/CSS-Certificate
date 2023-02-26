@@ -1,0 +1,42 @@
+/*
+
+  >RGB (red,green,blue)               224 59 18 88
+  >Hexadecimal                        #E03B12
+  >HSB  (hue, saturation, lightness)  12 92 68
+  >RGBA (red,green,blue,alpha)        224 59 18 88 1
+*/
+
+/* div{
+    width: 500px;
+    height: 500px;
+    /* background-color: #E03B12; */
+    /* background-color:hsl(12 92 68); */
+    /* background-color: rgb( 224 59 18 ); */
+    /* background-color: rgba(224, 59, 18, 1); } */
+
+
+/*FONODS */
+
+/*div{
+    width: 500px;
+    height: 500px;
+    background-image: url(./_s_a12Cb12Cc12Cd12Ce0f0g64hECF1D84ABAAEFBD75EFF3D0024546F05054Ei85j0k64l1F4m1F4.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-x: -90px;
+} */
+
+/*DEGRADADOS*/
+
+div{
+    width: 500px;
+    height: 500px;
+    /* background: linear-gradient(90deg, red 25%, white 50.3%, green 75%); */
+    /* background: linear-gradient(45deg, blue 33%, purple 50%,yellow 33%); */
+    background: -webkit-radial-gradient(center,circle,rgb(255, 199, 134) 50%,orange 50%,purple,blue);
+
+}
+
+
+
+

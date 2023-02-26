@@ -1,0 +1,43 @@
+/* Unidades de medida */
+
+/*  MEDIDAS ABSOLUTAS
+    > Pixeles */
+
+/*  MEDIDAS RELATIVAS
+    -- Son medidas que no cambian en otero momento --- 
+    > % porcentajes : relativo a un elemento padre 
+    > em : relativo al tamaño de la letra deñ elemento
+           toma referencia las medidas del HTML(16px)
+           
+           problema COMPUESTO -> va cambiar en funcion al
+           elemento padre  */
+
+/*  fr --> Una fracccion, se usa en grid */
+
+html{
+    font-size: 68.5%; /*Equivale a  10px*/
+    /* equivake 16 px*/
+}
+
+.padre{
+    border: 3px solid black;
+    font-size: 1em;
+}
+
+/* .hijo{
+    font-size: 0.2em ;
+}
+
+.nieto{
+    font-size: 0.2em;
+} */
+
+.Prueba{
+    font-size: 20px;
+}
+
+body{
+    width: 50vw; /* view width -> Todo lo que se ve en la pantalla*/
+    height: 70vh; /*view heigth*/
+    background-color: red;
+}
