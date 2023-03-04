@@ -3,6 +3,9 @@
 >Realative position
 >Fixed
 
+con las posiciones absolutas y relativas :
+se puede 
+
 */
 
 
@@ -36,6 +39,7 @@ position: relative;
     background-color: green;
     position:absolute;
     top: 0px;
+    left: 0px;
 }
 .caja4{
     background-color: pink;

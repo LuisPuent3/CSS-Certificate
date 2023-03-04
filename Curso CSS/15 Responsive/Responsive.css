@@ -1,0 +1,68 @@
+/* fixed moviles
+
+XS < 576px  mobiles minis
+SMALL >= 576px mobiles standar
+MEDIUM >= 768px tablet
+LARGE >= 992px tablet grande, app escritorio
+EXTRA LARGE >= 1200px escritorio
+EXTRA EXTRA LARGE >= 1400px super escritorio
+
+*/
+
+body{
+    background-color: #994137;
+    width: 89%;
+    height: 640px;
+}
+header{
+    content: normal;
+}
+
+h1{
+    font-size: 28px;
+    background-color: #E6766A;
+    text-align: center;
+}
+h2{
+    background-color: #E6766A;
+}
+h3{
+    background-color: #FFBB8F;
+}
+main{
+    background-color: #E6766A;
+    text-align: center;
+    width: 98%;
+    
+}
+p{
+    font-size: 20px;
+}
+footer{
+    background-color:#E6766A ;
+    width: 98%;
+    height: 400px;
+    display: block;
+}
+
+footer div{
+    width: 93%;
+    height: 150px;
+    background-color: #E6766A;
+    margin: 9px;
+}
+
+/*@media(min-width:629px) and (min-width:900px)*/
+
+@media(min-width:629px){
+    h1{font-size: 40px;}
+    h2{font-size: 20px;}
+    h3{font-size: 30px;}
+    p{font-size: 30px;}
+    footer div{height: 230px;}
+    footer { height: 500px;}
+}
+
+@media(min-width:900px){
+    h1{background-color: green;}
+}
