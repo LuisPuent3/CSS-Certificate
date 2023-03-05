@@ -1,0 +1,67 @@
+/*
+
+grid container es el padre
+
+grid track columnas o filas 
+
+grid cell un area de varias celdas
+
+grid items lo que va adentro del container los hijos
+
+*/
+
+.container{
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(4,1fr);  
+    /* grid-gap: 3px;  /*Separa filas y columnas*/
+    /* row-gap: 3px;
+    column-gap: 3px; */
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;  
+    grid-template-areas: 
+    "header hearder header header"
+    "main main main .aside"
+    "footer footer footer footer"
+
+} 
+.box{
+    border: 1px solid black;
+}
+
+/* .box{
+    border: 1px solid black;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-end:1 ;
+    grid-row-start: 3;
+    background-color: blueviolet;
+
+}
+.box5{
+    grid-row: 3/5;
+    grid-column: 3/5;
+    background-color: aqua;
+}
+.box2{
+    /* grid-area: inicioFila,InicioColumna,finalFila,FinalColumna; 
+    grid-area: 3/1/5/3;
+    background-color: brown;
+}
+.box3{
+    grid-area: 5/1/6/5;
+    height: 150px;
+    background-color: chartreuse;    
+} */
+
+/*  GRID AREA*/
+
+
+.box1,.box2,.box3,.box4{
+    grid-area: header;
+}
